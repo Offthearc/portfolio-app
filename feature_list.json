@@ -1,0 +1,65 @@
+{
+  "project": "portfolio-app",
+  "features": [
+    {
+      "id": "F001",
+      "name": "Project scaffold",
+      "status": "done",
+      "verification": "init.sh passes"
+    },
+    {
+      "id": "F002",
+      "name": "App shell with routing",
+      "status": "done",
+      "verification": "npm run dev starts without errors"
+    },
+    {
+      "id": "F003",
+      "name": "Navbar component",
+      "status": "done",
+      "verification": "Renders logo and nav links; tests pass"
+    },
+    {
+      "id": "F004",
+      "name": "Hero section",
+      "status": "done",
+      "verification": "Renders name, title, and CTA buttons; tests pass"
+    },
+    {
+      "id": "F005",
+      "name": "About section",
+      "status": "done",
+      "verification": "Renders bio and profile info; tests pass"
+    },
+    {
+      "id": "F006",
+      "name": "Projects section",
+      "status": "done",
+      "verification": "Renders project cards with tags; tests pass"
+    },
+    {
+      "id": "F007",
+      "name": "Skills section",
+      "status": "done",
+      "verification": "Renders skill categories and items; tests pass"
+    },
+    {
+      "id": "F008",
+      "name": "Contact section",
+      "status": "done",
+      "verification": "Renders email and social links; tests pass"
+    },
+    {
+      "id": "F009",
+      "name": "Footer component",
+      "status": "done",
+      "verification": "Renders author name and copyright year; tests pass"
+    },
+    {
+      "id": "FDEPLOY",
+      "name": "Deploy to Vercel",
+      "status": "pending",
+      "verification": "vercel --prod returns a live https:// URL"
+    }
+  ]
+}
